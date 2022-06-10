@@ -19,11 +19,11 @@
         id="offcanvasNavbar"
         aria-labelledby="offcanvasNavbarLabel"
       >
-        <div class="offcanvas-header">
-          <!-- <h5>Educación a distancia</h5> -->
+        <div class="offcanvas-header d-block d-lg-none">          
           <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">
             <i class="fa-solid fa-xmark"></i>
           </button>
+          <h1 class="text-white text-center mt-3 d-lg-none">EAD</h1>
         </div>
         <div class="offcanvas-body nav-bg">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 my-auto">
@@ -35,7 +35,13 @@
               >{{ link.titulo }}</nav-links
             >
           </ul>
-        </div>
+          <!-- <div class="logo-box">
+            <img class="logo-itt" src="../../assets/imgs/escudo_itt_grande.png" alt="" srcset="">
+          </div> -->
+          <div class="logo-box d-lg-none">
+            <img class="logo-cc" src="../../assets/imgs/Logo-horizontal-blanco.svg" alt="" srcset="">
+          </div>
+        </div>        
       </div>
     </div>
   </nav>
@@ -51,7 +57,11 @@ img {
 }
 
 .offcanvas-header {
-  background-color: #1b396a;
+  background-color: #1b396a;  
+}
+
+.offcanvas-body{
+  position: relative;
 }
 
 a {
@@ -78,8 +88,26 @@ button i {
   color: white;
 }
 
-.navbar-dark .navbar-toggler {
-  
+h1{
+  letter-spacing: -4px;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.logo-itt{
+position: absolute;
+width: 30%;
+top: 50%;
+left: 50%;
+transform: translate(-50%, 0);
+}
+
+.logo-cc{
+  position: absolute;
+  width: 30%;
+  bottom: 0%;
+left: 50%;
+transform: translate(-50%, 0);
 }
 </style>
 
