@@ -1,5 +1,5 @@
 <template>
-  <router-link :to="url">
+  <router-link :to="url" >
     <slot></slot>
   </router-link>
 </template>
@@ -10,6 +10,4 @@ export default {
 };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

@@ -40,12 +40,9 @@
         </p>
       </div>
       <div class="col-12">
-          <img class="img-fluid" src="../assets/imgs/convocatoria.png" alt="" srcset="">
+          <img class="img-fluid mx-auto d-flex" src="../assets/imgs/convocatoria.png" alt="" srcset="">
       </div>
     </div>
   </div>
 </template>
 
-<style scoped>
-
-</style>

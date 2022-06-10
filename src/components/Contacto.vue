@@ -86,7 +86,8 @@
 
 input {
   border: none;
-  box-shadow: 0 0.5px 0 #1b396a;
+  border-bottom: 1px solid #1b396a;
+  /* box-shadow: 0 0.5px 0 #1b396a; */
   width: 100%;
 }
 

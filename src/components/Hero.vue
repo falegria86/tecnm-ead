@@ -6,7 +6,7 @@
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.
         Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
       </p>
-      <boton-primario class="text-center" url="/" >Saber más</boton-primario>
+      <boton-primario class="text-center" url="/">Saber más</boton-primario>
     </div>
   </div>
 </template>
@@ -25,11 +25,30 @@ h1 {
   font-weight: 800;
   text-align: left;
   color: white;
+
   text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.31);
+  animation-name: start-animation;
+  animation-timing-function: ease-out;
+  animation-duration: 0.6s;
 }
 
 p {
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   width: 70%;
+  animation-name: start-animation;
+  animation-timing-function: ease-out;
+  animation-duration: 1s;
+}
+
+@keyframes start-animation {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 </style>

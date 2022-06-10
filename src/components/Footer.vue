@@ -64,4 +64,11 @@
   opacity: 0.8;
 }
 
+@media(max-width:575px ){
+  .logo-cc{
+  width: 20%;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+}
 </style>
