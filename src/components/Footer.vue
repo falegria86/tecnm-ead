@@ -3,12 +3,23 @@
     <footer>
       <ul class="list-inline">
         <li class="list-inline-item"><a href="#">Inicio</a></li>
-        <li class="list-inline-item"><a href="#">Plataforma educativa</a></li>
-        <li class="list-inline-item"><a href="#">Modelo educativo</a></li>
-        <li class="list-inline-item"><a href="#">Carreras</a></li>        
+        <li class="list-inline-item">
+          <router-link to="/plataforma-educativa"> Plataforma educativa </router-link>
+        </li>
+        <li class="list-inline-item">
+          <router-link to="/modelo-educativo"> Modelo educativo </router-link>
+        </li>
+        <li class="list-inline-item">
+          <router-link to="/carreras"> Carreras </router-link>
+        </li>
       </ul>
       <p class="copyright mt-4">Instituto Tecnológico de Tepic</p>
-      <img class="logo-cc mx-auto" src="../assets/imgs/Logo-horizontal-blanco.svg" alt="" srcset="">
+      <img
+        class="logo-cc mx-auto"
+        src="../assets/imgs/Logo-horizontal-blanco.svg"
+        alt=""
+        srcset=""
+      />
       <p class="copyright centro-computo">Centro de Cómputo © 2022</p>
     </footer>
   </div>
@@ -48,7 +59,7 @@
   opacity: 1;
 }
 
-.footer-basic .copyright {  
+.footer-basic .copyright {
   text-align: center;
   font-size: 14px;
   color: rgb(187, 187, 187);
@@ -57,18 +68,18 @@
   text-transform: uppercase;
 }
 
-.logo-cc{
+.logo-cc {
   width: 10%;
   display: flex;
   margin-bottom: -20px;
   opacity: 0.8;
 }
 
-@media(max-width:575px ){
-  .logo-cc{
-  width: 20%;
-  margin-top: 10px;
-  margin-bottom: -10px;
-}
+@media (max-width: 575px) {
+  .logo-cc {
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: -10px;
+  }
 }
 </style>

@@ -39,7 +39,7 @@
               :key="idx"
               :url="link.url"
               class="mb-3 mb-lg-0"
-              :class="{ active: isActive }"                                      
+              :class="{ active: isActive }"              
               >{{ link.titulo }}</nav-links
             >
           </ul>
@@ -114,7 +114,7 @@ button i {
   color: #1b396a;
 }
 
-button i.active{
+button i.active {
   color: white;
 }
 
@@ -198,9 +198,7 @@ export default {
     fixNav() {
       if (window.scrollY > 500) this.isActive = true;
       else this.isActive = false;
-    },
-
-   
+    },    
   },
 };
 </script>
