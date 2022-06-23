@@ -2,7 +2,7 @@
   <div class="container pt-4">
     <div class="row">
       <div class="col-12 col-xl-6">
-        <h1>Modelo educativo</h1>
+        <h1 class="text-center text-xl-start">Modelo educativo</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dolor
           tortor, pharetra ut imperdiet quis, condimentum non massa. Sed luctus
@@ -31,7 +31,7 @@
         />
       </div>
       <div class="col-12 col-xl-6">
-        <h2>Objetivo</h2>
+        <h2 class="text-center text-xl-start">Objetivo</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dolor
           tortor, pharetra ut imperdiet quis, condimentum non massa. Sed luctus
@@ -54,7 +54,7 @@
     </div>
     <div class="row mt-5">
       <div class="col">
-        <h2>Beneficios</h2>
+        <h2 class="text-center text-xl-start">Beneficios</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac
           accumsan metus. In congue diam eu volutpat cursus. Ut dignissim porta

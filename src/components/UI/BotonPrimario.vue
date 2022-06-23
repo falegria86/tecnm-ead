@@ -17,8 +17,8 @@
     background-color: #f97123;
 }
 
-.boton:active{
-    transform: scale(0.95);
+.boton:active {
+  transform: scale(0.95);
 }
 </style>
 

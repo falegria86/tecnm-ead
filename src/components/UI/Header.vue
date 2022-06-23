@@ -3,6 +3,9 @@
     <router-link to="/" class="my-auto">
       <slot name="logo"></slot>
     </router-link>
+    <router-link to="/" class="my-auto">
+      <slot name="logo-2"></slot>
+    </router-link>
     <slot name="navbar"></slot>
   </div>
 </template>
@@ -15,10 +18,10 @@
   justify-content: space-between;
 }
 
-/* .header.active {
-  background-color: #1b396a;
+.header.active {
+  
   height: 60px;
-} */
+}
 </style>
 
 <script>
@@ -38,11 +41,13 @@ export default {
 
   methods: {
     fixNav() {
-      if (window.scrollY > 500) {        
-        this.isActive = true;        
-      } 
-      
-      else this.isActive = false;
+      if (window.scrollY > 500) {
+        this.isActive = true;
+        this.$emit("toggleNavbar", true);
+      } else {
+        this.isActive = false;
+        this.$emit("toggleNavbar", false);
+      }
     },
   },
 };

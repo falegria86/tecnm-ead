@@ -20,12 +20,15 @@ const router = createRouter({
       path: "/carreras",
       name: "carreras",
       component: Carreras,
-    },
+    },    
     {
       path: "/plataforma-educativa",
       beforeEnter() {
-        location.href = "https://ead.tepic.tecnm.mx/";
+        window.open("https://ead.tepic.tecnm.mx/") ;
       },      
+    },
+    {
+      path: '/:notFound(.*)', redirect: '/'
     },
   ],
   scrollBehavior(to, from, savedPosition) {    

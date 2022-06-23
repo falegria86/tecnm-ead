@@ -5,7 +5,7 @@
       class="sidebar"
     >
       <i
-        class="fas fa-xmark d-lg-none"
+        class="fas fa-xmark d-xl-none"
         @click="$emit('hide-dropdown', false)"
       ></i>
       <slot></slot>
@@ -30,7 +30,7 @@ i {
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .sidebar {
     position: fixed;
     z-index: 10;

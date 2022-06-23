@@ -1,7 +1,10 @@
 <template>
-  <Header class="fixed-top">
+  <Header class="fixed-top" @toggle-navbar="toggleNavbar">
     <template v-slot:logo>
-      <img src="./assets/imgs/logos-light.png" class="img-logo" />
+      <img src="./assets/imgs/logos-light.png" class="img-logo" />      
+    </template>
+     <template v-slot:logo-2>
+      <img src="./assets/imgs/ead-logo.svg" class="img-logo d-none d-sm-flex" />      
     </template>
 
     <template v-slot:navbar>
@@ -9,14 +12,14 @@
         @hide-dropdown="hideDropDown"
         :showBars="showBars"
         class="my-auto"
-      >
-        <h1 class="ead-logo d-block d-lg-none">EAD</h1>
+      >        
+        <img src="./assets/imgs/ead-logo.svg" class="ead-logo d-block d-xl-none" /> 
         <nav-link
           v-for="(link, i) in navLinks"
           :key="i"
           @hide-dropdown="hideDropDown"
           :url="link.url"
-          :dropmenu="link.isDropdown"
+          
           class="links"
         >
           {{ link.title }}</nav-link
@@ -24,14 +27,14 @@
 
         <img
           src="./assets/imgs/Logo-horizontal-blanco.svg"
-          class="logo-cc d-block d-lg-none"
+          class="logo-cc d-block d-xl-none"
         />
       </navbar>
       <transition>
         <i
           @click="toggleBars"
           v-if="!showBars"
-          class="fa-solid faIcon d-lg-none fa-bars my-auto me-4"
+          class="fa-solid faIcon d-xl-none fa-bars my-auto me-4"
         ></i>
       </transition>
     </template>
@@ -60,7 +63,7 @@
 }
 
 .links {
-  margin-right: 60px;
+  margin-right: 60px;  
 }
 
 .v-enter-from,
@@ -86,15 +89,16 @@
   letter-spacing: -5px;
   margin-bottom: 45px;
   font-size: 50px;
+  width: 50%;
 }
 
-.logo-cc{
- width: 30%;
- margin: 0 auto;
- margin-top: auto; 
+.logo-cc {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: auto;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
   .links {
     font-size: 16px;
     font-weight: normal;
@@ -102,6 +106,10 @@
     text-align: center;
   }
 }
+</style>
+
+<style scoped>
+
 </style>
 
 <script>

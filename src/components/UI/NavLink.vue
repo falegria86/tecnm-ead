@@ -1,16 +1,10 @@
 <template>
   <div>
-    <router-link @click="$emit('hide-dropdown', false)" :to="url">
+    <router-link @click="$emit('hide-dropdown', false)" :to="url" active-class="active">
       <slot></slot>
     </router-link>
   </div>
 </template>
-
-<script>
-export default {
-  props: ["url"],
-};
-</script>
 
 <style scoped>
 a {
@@ -18,7 +12,13 @@ a {
   text-transform: uppercase;
 }
 
-a:hover {
+a:hover, .active {
   color: #f98523;
 }
 </style>
+
+<script>
+export default {
+  props: ["url"],
+};
+</script>
