@@ -14,13 +14,13 @@
 .header {
   display: flex;
   height: 100px;
-  background-color: #1b396a;
-  justify-content: space-between;
+  background-color: white;
+  justify-content: space-between;  
 }
 
-.header.active {
-  
+.header.active {  
   height: 60px;
+  background-color: #1b396a;
 }
 </style>
 

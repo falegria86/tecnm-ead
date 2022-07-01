@@ -3,8 +3,7 @@
     <div class="container my-auto">
       <h1>Educación a distancia</h1>
       <p class="text-white mb-4">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.
-        Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
+        Únete a la comunidad de estudiantes del Instituto Tecnológico de Tepic
       </p>
       <div class="btn-animated">
         <boton-primario class="text-center" url="/modelo-educativo"
@@ -68,7 +67,7 @@ p {
     transform: translateY(50px);
   }
 
-  100% {    
+  100% {
     transform: translateY(0);
   }
 }

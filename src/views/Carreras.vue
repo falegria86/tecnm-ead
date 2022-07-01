@@ -9,16 +9,18 @@
         />
         <h3>Gestión empresarial</h3>
         <p class="text-start">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dolor
-          tortor, pharetra ut imperdiet quis, condimentum non massa. Sed luctus
-          arcu lorem. Duis ut tellus quis augue euismod bibendum. Integer sit
-          amet enim eu diam finibus elementum. Nulla facilisi. Phasellus a mi
-          volutpat, posuere metus ut, molestie mi. Duis et nisl sollicitudin,
-          efficitur nisl nec, fringilla leo. Proin et vestibulum ligula. Nullam
-          nec tincidunt dui. Praesent ac lorem interdum, bibendum erat ut,
-          mattis nisi. Donec sit amet sem eu est accumsan porta sit amet vitae
-          enim. Aenean eget suscipit risus, vel dictum est. Sed sed tempor urna,
-          sed dignissim nibh.
+          La carrera de Ingeniería en Gestión Empresarial es una pieza
+          fundamental en las áreas claves de las organizaciones, donde es
+          indispensable contar con una formación científica, tecnológica y
+          ética. Conviértete en uno de nuestros estudiantes, conscientes de las
+          necesidades de una sociedad globalizada y comprometidos con la
+          sociedad y su entorno.
+          <br /><br />
+          Si eres un entusiasta del emprendimiento, tienes interés en las
+          ciencias económico-administrativas, cuentas con talento para la
+          expresión, comunicación (tanto verbal como escrita), y disfrutas del
+          trabajo en equipo, la plataforma de Educación a Distancia es el
+          escenario ideal para el desarrollo de tus actividades de aprendizaje.
         </p>
       </div>
     </div>
@@ -45,12 +47,16 @@
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                iaculis lobortis lectus, quis porta urna ullamcorper et. Nullam
-                at porttitor dolor. Mauris molestie in turpis vitae imperdiet.
-                Pellentesque tellus nisi, volutpat vitae elit at, viverra
-                condimentum mi. Nunc interdum nunc sit amet metus sagittis,
-                bibendum vulputate augue accumsan. Vestibulum lacinia.
+                Formar profesionales que contribuyan a la gestión de empresas e
+                innovación de procesos; así como al diseño, implementación y
+                desarrollo de sistemas estratégicos de negocios, optimizando
+                recursos en un entorno global, con ética y responsabilidad
+                social.
+                <br /><br />
+                El egresado aplicará habilidades directivas y de ingeniería en
+                el diseño, gestión, fortalecimiento e innovación de las
+                organizaciones para la toma de decisiones en forma efectiva, con
+                una orientación sistémica y sustentable.
               </div>
             </div>
           </div>
@@ -74,12 +80,26 @@
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                iaculis lobortis lectus, quis porta urna ullamcorper et. Nullam
-                at porttitor dolor. Mauris molestie in turpis vitae imperdiet.
-                Pellentesque tellus nisi, volutpat vitae elit at, viverra
-                condimentum mi. Nunc interdum nunc sit amet metus sagittis,
-                bibendum vulputate augue accumsan. Vestibulum lacinia.
+                <h4>Perfil de Ingreso:</h4>
+                <ul>
+                  <li>Actitud emprendedora.</li>
+                  <li>
+                    Habilidades de expresión y comunicación verbal, oral y
+                    escrita./li>
+                  </li>
+
+                  <li>Conocimientos básicos en el uso de las TIC’s.</li>
+                  <li>Habilidades de liderazgo.</li>
+                  <li>Trabajo en equipo.</li>
+                  <li>Enfrentar retos.</li>
+                  <li>Habilidades en métodos de estudio.</li>
+                  <li>
+                    Interés hacia las asignaturas del área de ciencias
+                    económico-administrativas.
+                  </li>
+                  <li>Actitud de respeto a la diversidad cultural.</li>
+                  <li>Conciencia ecológica.</li>
+                </ul>
               </div>
             </div>
           </div>

@@ -1,10 +1,26 @@
 <template>
   <Header class="fixed-top" @toggle-navbar="toggleNavbar">
     <template v-slot:logo>
-      <img src="./assets/imgs/logos-light.png" class="img-logo" />      
+      <div v-if="!isActive">
+        <img src="./assets/imgs/logos-dark.png" class="img-logo" />
+      </div>
+      <div v-else>
+        <img src="./assets/imgs/logos-light.png" class="img-logo" />
+      </div>
     </template>
-     <template v-slot:logo-2>
-      <img src="./assets/imgs/ead-logo.svg" class="img-logo d-none d-sm-flex" />      
+    <template v-slot:logo-2>
+      <div v-if="!isActive">
+        <img
+          src="./assets/imgs/ead-logo-dark.svg"
+          class="img-logo d-none d-sm-flex"
+        />
+      </div>
+      <div v-else>
+        <img
+          src="./assets/imgs/ead-logo.svg"
+          class="img-logo d-none d-sm-flex"
+        />
+      </div>
     </template>
 
     <template v-slot:navbar>
@@ -12,14 +28,16 @@
         @hide-dropdown="hideDropDown"
         :showBars="showBars"
         class="my-auto"
-      >        
-        <img src="./assets/imgs/ead-logo.svg" class="ead-logo d-block d-xl-none" /> 
+      >
+        <img
+          src="./assets/imgs/ead-logo.svg"
+          class="ead-logo d-block d-xl-none"
+        />
         <nav-link
           v-for="(link, i) in navLinks"
           :key="i"
           @hide-dropdown="hideDropDown"
           :url="link.url"
-          
           class="links"
         >
           {{ link.title }}</nav-link
@@ -63,7 +81,7 @@
 }
 
 .links {
-  margin-right: 60px;  
+  margin-right: 60px;
 }
 
 .v-enter-from,
@@ -108,18 +126,23 @@
 }
 </style>
 
-<style scoped>
-
-</style>
+<style scoped></style>
 
 <script>
 export default {
+  created() {
+    window.addEventListener("scroll", this.fixNav);
+  },
+  destroyed() {
+    window.removeEventListener("scroll", this.fixNav);
+  },
   data() {
     return {
       /* Variable que activa o desactiva la sidebar */
       showBars: false,
       menuActive: false,
       navbar: false,
+      isActive: false,
 
       /* Links de la barra de navegación */
       navLinks: [
@@ -158,6 +181,13 @@ export default {
 
     toggleNavbar(state) {
       this.navbar = state;
+    },
+    fixNav() {
+      if (window.scrollY > 500) {
+        this.isActive = true;
+      } else {
+        this.isActive = false;
+      }
     },
   },
 };
