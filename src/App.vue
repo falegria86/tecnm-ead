@@ -2,7 +2,7 @@
   <Header class="fixed-top" @toggle-navbar="toggleNavbar">
     <template v-slot:logo>
       <div v-if="!isActive">
-        <img src="./assets/imgs/logos-dark.png" class="img-logo" />
+        <img src="./assets/imgs/logos-light.png" class="img-logo" />
       </div>
       <div v-else>
         <img src="./assets/imgs/logos-light.png" class="img-logo" />
@@ -11,7 +11,7 @@
     <template v-slot:logo-2>
       <div v-if="!isActive">
         <img
-          src="./assets/imgs/ead-logo-dark.svg"
+          src="./assets/imgs/ead-logo.svg"
           class="img-logo d-none d-sm-flex"
         />
       </div>

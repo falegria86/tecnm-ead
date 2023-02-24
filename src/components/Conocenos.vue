@@ -36,7 +36,25 @@
     <div class="row">
       <div class="col-12 mt-5 text-center">
         <h1>Convocatoria</h1>
-        <p class="convocatoria-parrafo mx-auto">Próximamente</p>
+        <div class="convocatoria-container mb-4">
+          <h4>
+            Ingeniería en Gestión Empresarial No Escolarizada (a distancia)
+          </h4>
+          <p class="convocatoria-parrafo text-center text-sm-start">
+            El
+            <a href="https://www.tepic.tecnm.mx/" target="_blank"
+              >Instituto Tecnológico de Tepic</a
+            >
+            amplía su cobertura educativa y te ofrece la posibilidad de estudiar
+            la carrera de Ingeniería en Gestión Empresarial en modalidad 100% a
+            distancia.
+          </p>
+          <a
+            href="https://tepic.tecnm.mx/doc/Convocatorias%202023/Convocatoria%20IGE%20a%20distancia%2020231.html"
+            target="_blank"
+            >Ver convocatoria</a
+          >
+        </div>
       </div>
       <div class="col-12">
         <img
@@ -49,3 +67,21 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.convocatoria-container {
+  padding: 15px 30px;
+  box-shadow: #32325d40 0 13px 27px -5px, #0000004d 0 8px 16px -8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+a {
+  color: #000;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #f98523;
+}
+</style>

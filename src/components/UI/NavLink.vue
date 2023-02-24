@@ -13,7 +13,7 @@
 
 <style scoped>
 a {
-  color: #1b396a;
+  color: white;
   text-transform: uppercase;
 }
 

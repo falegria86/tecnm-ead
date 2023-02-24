@@ -24,7 +24,7 @@ const router = createRouter({
     {
       path: "/plataforma-educativa",
       beforeEnter() {
-        window.open("https://ead.tepic.tecnm.mx/");
+        window.open("https://moodleead.tepic.tecnm.mx");
       },
     },
     {
