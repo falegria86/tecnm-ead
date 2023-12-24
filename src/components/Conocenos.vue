@@ -50,7 +50,7 @@
             distancia.
           </p>
           <a
-            href="https://tepic.tecnm.mx/doc/Convocatorias%202023/Convocatoria%20IGE%20a%20distancia%2020231.html"
+            href="https://st03.tepic.tecnm.mx/doc/Convocatorias%202023/Convocatoria_IGE_a_distancia_20232.pdf"
             target="_blank"
             >Ver convocatoria</a
           >
